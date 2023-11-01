@@ -5,7 +5,6 @@ namespace DesafioPOO.Models
     {
         public Iphone(string numero, string modelo, string iMei, int memoria) : base(numero, modelo, iMei, memoria)
         {
-            Console.WriteLine($"Numero: {numero}\nModelo: {modelo} \nIMEI: {iMei} \nMemoria: {memoria}" );
         }
         // TODO: Sobrescrever o método "InstalarAplicativo"
         public override void InstalarAplicativo(string nomeApp)
